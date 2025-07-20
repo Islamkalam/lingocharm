@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lingocharm/screens/voicematch.dart';
 import 'package:lingocharm/widgets/tts_widget.dart';
-import 'package:lingocharm/widgets/voicewavebutton.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +36,7 @@ class _HomeState extends State<Home> {
       body: SafeArea(
         top: true,
         bottom: true,
-        child: TTSWidget(text: "Hi how are you?"),
+        child: TTSWidget(text: "Hello world!"),
       ),
     );
   }
