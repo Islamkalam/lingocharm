@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lingocharm/screens/practicescreen.dart';
 import 'package:lingocharm/widgets/tts_widget.dart';
 
 void main() {
@@ -36,7 +37,8 @@ class _HomeState extends State<Home> {
       body: SafeArea(
         top: true,
         bottom: true,
-        child: TTSWidget(text: "Hello world!"),
+        // child: TTSWidget(text: "Hello world!"),
+        child: PracticeScreen(),
       ),
     );
   }
