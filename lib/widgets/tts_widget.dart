@@ -25,7 +25,7 @@ class TTSWidget extends StatelessWidget {
         boxShadow: [
           BoxShadow(
             // ignore: deprecated_member_use
-            color: AppGlobals.secondaryColor.withOpacity(0.4),
+            color: AppGlobals.accentColor.withOpacity(0.4),
             blurRadius: 8,
             offset: Offset(2, 4),
           ),
