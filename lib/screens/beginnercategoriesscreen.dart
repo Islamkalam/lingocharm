@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lingocharm/global/app_globals.dart';
-import 'package:lingocharm/screens/color_level_screen.dart';
+import 'package:lingocharm/screens/color_level_grid_screen.dart';
+// import 'package:lingocharm/screens/color_level_screen.dart';
 import 'package:lingocharm/screens/comingsoonlevelscreen.dart';
 import 'package:lingocharm/screens/levelgridscreen.dart';
 
@@ -62,10 +63,7 @@ class BeginnerCategoriesScreen extends StatelessWidget {
               } else if (category['title'] == 'Colors') {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                    builder:
-                        (_) => ColorLevelsScreen(),
-                  ),
+                  MaterialPageRoute(builder: (_) => ColorLevelGridScreen()),
                 );
               } else {
                 Navigator.push(
